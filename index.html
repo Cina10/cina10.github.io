@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Page Name - in the browser tab -->
+  <title> Project Seva </title>
+</head>
+
+<body>
+  <!-- <div class="container-fluid"> -->
+
+    <!-- Navigation Bar -->
+    <!-- justify-content line centers everything inside the nav component -->
+    <div id='heading'>
+      Project Seva
+    </div>
+
+    <nav class="navbar" id="myNavBar">
+      <a class="nav-link leftbutton" href="index.html"> Home </a>
+      <a class="nav-link leftbutton" href="news.html"> News </a>
+      <a class="nav-link leftbutton" href="donate.html"> Donate</a>
+      <a class="nav-link leftbutton" href="contact.html">Contact</a>
+      <a class="nav-link rightbutton" href="checkout.html">Check Out</a>
+       <a class="nav-link rightbutton" href="myProfile.html">My Profile</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <div id="intro" class="text">
+    <p>
+      <strong> Project Seva</strong> is a non-profit for people looking to make real
+      change. It aims to connect donations directly to people most in need after natural disasters.
+      As a donar, you can choose exactly what you are paying for and where it is going and
+      you are assured your donation will be used and make a real impact.
+    </p>
+  </div>
+
+  <div id="photo-1" class="background-photo">
+  </div>
+
+  <div class="text">
+  <p>
+  <i>
+    "Each of us as human beings has a responsibility to reach out to help our brothers and sisters affected by disasters. One day it may be us or our loved ones needing someone to reach out and help."
+  </i>
+  </p>
+  <p id="attribute">
+  Michael W. Hawkins, American Red Cross
+  </p>
+</div>
+
+<div id="photo-2" class="background-photo">
+</div>
+
+  <p id="footer">
+    ProjectSeva 2019
+  </p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavBar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+</html>

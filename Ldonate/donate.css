@@ -1,0 +1,21 @@
+:root {
+  --lightInfo: #8ed0da;
+}
+
+body {
+  background-color: var(--lightInfo);
+}
+
+.disasters {
+  padding: 1em;
+}
+
+.card-as-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.card-as-link:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
