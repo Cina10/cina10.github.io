@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Page Name - in the browser tab -->
+  <title> Project Seva News </title>
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+
+      Project Seva
+
+
+    <nav class="navbar" id="myNavBar">
+      <a class="nav-link leftbutton" href="index.html"> Home </a>
+      <a class="nav-link leftbutton" href="news.html"> News </a>
+      <a class="nav-link leftbutton" href="donate.html"> Donate</a>
+      <a class="nav-link leftbutton" href="contact.html">Contact</a>
+      <a class="nav-link rightbutton" href="checkout.html">Check Out</a>
+       <a class="nav-link rightbutton" href="myProfile.html">My Profile</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+  <p id="footer">
+    ProjectSeva 2019
+  </p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavBar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+</html>
